@@ -464,3 +464,8 @@ footer{
     padding: 12px;
 }
 
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
