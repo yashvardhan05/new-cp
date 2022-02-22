@@ -520,3 +520,32 @@ footer{
   .horizontal-card{
       display: flex;
   }
+
+
+.floatingButtonDiv, .fa-solid{
+padding: 30px;
+}
+
+.floatingButtonDiv{
+    background-color: rgb(241 245 249);
+}
+  
+.card-card-container-for{
+    
+}
+
+
+.horizontal-card-over{
+    display: flex;
+    
+}
+
+
+.text-overlay-horizontal{
+    padding: 12px;
+}
+
+
+.card-card-container-shadow{
+    box-shadow: #6d28d9;
+}

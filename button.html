@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Badge | Anim8</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/6aeb2301d9.js"
+    crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -36,32 +38,94 @@
         </aside>
         <main>
 
-            <h1>Badge</h1>
 
-            <p>Badges are small circles, positioned either at top-right or bottom-right of the parent component. Badge can be </p>
-            <p>used to display numbers, online / offline status, depending on where they are used.</p>
-            
+            <h1>Button</h1>
+            <p>Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and make choices, </p>
+            <p>with a single tap.</p>
+
             <hr>
 
-            <h1>Profile Badge</h1>
-            <p>Profile Badge is used to show the current status of a user.</p>
-            <p class="Anim8-color">It can be used with 3 variants : online | offline | DND</p>
+            <h1>Contained Button</h1>
+            <p>Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that </p>
+            <p>are primary to your app.</p>
 
+           <div class="button-profiles">
+               <button class="default-button">
+                   DEFAULT
+               </button>
+               <button class="primary-button">
+               PRIMARY
+            </button>
+            <button class="secondary-button">
+                SECONDARY
+            </button>
+            <button class="error-button">
+               ERROR
+            </button>
+            <button class="success-button">
+                SUCCESS
+            </button>
+           </div>
 
-<div class="badge-profiles">
-    <img class="badge-avtar"  src="/avtar.jpg" alt="" width="80px" height="80px">
-   
-    <img class="badge-avtar"  src="/avtar.jpg" alt="" width="80px" height="80px">
-    <img class="badge-avtar"   src="/avtar.jpg" alt="" width="80px" height="80px">
-</div>
-
-<div class="code-snipetForAvtar">
-    <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=142%25&si=false&es=2x&wm=false&code=%2520%253C--%2520Using%2520the%2520%27badge%27%2520class%2520on%2520parent%2520and%2520variant%2520class%2520on%2520child%2520--%253E%250A%250A%2520%253Cdiv%2520class%253D%2522badge%2522%2520%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Furl-of-the-image%2522%2520alt%253D%2522avatar-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Furl-of-the-image%2522%2520alt%253D%2522avatar-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%253Cdiv%2520class%253D%2522badge%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Fassets%252Fsvg%252Ffemale%2520profile.svg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dnd%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520"
-  style="width: 608px; height: 429px; border:0; transform: scale(1); overflow:hidden;"
+           <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=137%25&si=false&es=2x&wm=false&code=%253C--%2520Using%2520the%2520%27btn%27%2520class%2520followed%2520by%2520%27outline-variant%27%2520--%253E%250A%250A%2520%253Cbutton%2520class%253D%2522btn%2520outline%2522%253EDEFAULT%253C%252Fbutton%253E%250A%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253EERROR%253C%252Fbutton%253E%250A%250A%2520%253Cbutton%2520class%253D%2522btn%2520outline-success%2522%253ESUCCESS%253C%252Fbutton%253E"
+  style="width: 677px; height: 290px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
+
+
+<hr>
+
+            <h1>Link Button</h1>
+
+            <p>Want to attach a link action, at a button tap? Use Link Button</p>
+
+            <div class="buttonInLinkButton">
+                <button class="link-button">LINK</button>
+            </div>
+
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=137%25&si=false&es=2x&wm=false&code=%2520%253C--%2520Using%2520the%2520%27btn%27%2520class%2520followed%2520by%2520%27btn-link%27%2520--%253E%250A%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%2520%253D%2520%2522link%2522%253EDEFAULT%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E"
+  style="width: 612px; height: 194px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<hr>
+
+<h1>Icon Button</h1>
+<p>icon Button can be created, by using a SVG as a child to parent button. Use the 'btn' class followed by 'btn-icon'.</p>
+
+<div class="icon-buttonDiv">
+    <button class="icon-button">
+        <i class="fa-solid fa-floppy-disk"></i>
+        SAVE
+    </button>
 </div>
+
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=137%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253C--%2520Using%2520the%2520%27btn%27%2520class%2520followed%2520by%2520%27btn-icon%27%2520--%253E%250A%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%253Csvg%253E%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%2520SAVE%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E"
+  style="width: 634px; height: 218px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<hr>
+
+<h1>Floating Action Button</h1>
+
+<div class="floatingButtonDiv">
+    <a href="#">
+       <button><i class="fa-solid fa-comment-plus">Floating Button</i></button>
+    </a>
+</div>
+
+
+
+
+
+
+
+         
+
         </main>
         
     </div>
